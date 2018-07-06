@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*筋斗雲に乗せてみようアプリのCSS*/
+
+/* タイトル */
+.jumbotron-fix {
+    color:#ffc107;;
+    background-color: #007bff;
+    height: 120px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0;
+}
+
+/* ボタン */
+div#kintone {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* canvasエリア */
+#canvas_area {
+    width: 588px;
+    height: 294px;
+    margin: 0 10%;
+    background-color: #3E83C8;
+}
+.canvas-area-drag-over-style {
+    border: 2px dashed #FFF;
+    box-sizing: border-box;
+}
+
+#explain_area {
+    //width: 490px;
+    //margin: 0 25%;
+    //color: #3498db;
+}
+
+/* 一覧エリア */
+#user_name_list {
+    height: 150px;
+}
+.user-name-area {
+    float: left;
+    width: 23%;
+    margin: 5px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: move;
+}
+
+.user-rank-hide {
+    display: none;
+}
+/* コピーライト */
+footer {
+    padding: 25px 0;
+    text-align: center;
+}
+footer span.copyright {
+    font-size: 90%;
+    line-height: 40px;
+    text-transform: none;
+}
